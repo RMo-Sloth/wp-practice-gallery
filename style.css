@@ -9,3 +9,7 @@
 body {
   background: grey;
 }
+
+header input {
+  margin-top: 15px;
+}
