@@ -56,6 +56,9 @@
         </div>
       </div>
     </main>
-</div>
+  </div>
+  <footer>
+    <p>Photogenic &copy; <?php echo get_the_date('Y'); ?></p>
+  </footer>
 </body>
 </html>
