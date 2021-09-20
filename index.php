@@ -7,6 +7,9 @@
   <title><?php the_title(); ?></title>
 </head>
 <body>
+  <div class="w3-container w3-teal">
+    <h1>Heading</h1>
+  </div>
   INDEX
 </body>
 </html>
