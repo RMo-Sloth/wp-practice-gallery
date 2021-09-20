@@ -1,16 +1,17 @@
 <html <?php language_attributes(); ?>>
 <head>
   <meta charset="<?php bloginfo('charset'); ?>" >
+  <title><?php the_title(); ?></title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
   <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
-  <title><?php the_title(); ?></title>
+  <?php wp_head(); ?>
 </head>
-<body>
+<body <?php body_class(); ?>>
   <header class="w3-container w3-teal">
     <div class="w3-row w3-teal">
       <div class="w3-col m9 l9">
-        <h1><span>Photo</span>Genik</h1>
+        <h1><?php bloginfo('name'); ?></h1>
       </div>
       <div class="w3-col m3 l3">
         <input class="w3-input" type="text" placeholder="Search...">
@@ -60,7 +61,7 @@
     </main>
   </div>
   <footer>
-    <p>Photogenic &copy; <?php echo get_the_date('Y'); ?></p>
+    <p><?php bloginfo('name'); ?> &copy; <?php echo get_the_date('Y'); ?></p>
   </footer>
   <?php wp_footer(); ?>
 </body>
