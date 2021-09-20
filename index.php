@@ -7,9 +7,16 @@
   <title><?php the_title(); ?></title>
 </head>
 <body>
-  <div class="w3-container w3-teal">
-    <h1>Heading</h1>
-  </div>
+  <header class="w3-container w3-teal">
+    <div class="w3-row w3-teal">
+      <div class="w3-col m9 l9">
+        <h1><span>Photo</span>Genik</h1>
+      </div>
+      <div class="w3-col m3 l3">
+        <input class="w3-input" type="text" placeholder="Search...">
+      </div>
+    </div>
+  </header>
   INDEX
 </body>
 </html>
