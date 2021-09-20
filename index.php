@@ -29,8 +29,8 @@
         </ul>
       </div>
       <div class="w3-col m9 l9">
+
       </div>
     </div>
-  INDEX
 </body>
 </html>

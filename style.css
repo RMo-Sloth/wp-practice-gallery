@@ -6,6 +6,24 @@
   Description: This is a practice template for an image Gallery site
 */
 
+body{
+  background: #000;
+  color: #fff;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+input{
+  color: #333;
+}
+
+
 header input {
   margin-top: 15px;
 }
