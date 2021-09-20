@@ -31,27 +31,29 @@
     <main class="w3-col m9 l9">
       <div class="w3-row">
         <div class="w3-col m4 l4">
-          <img src="<?php echo get_stylesheet_directory_uri() ;?>/images/1.jpg" alt="">
+          <a href="https://waardwebsites.nl">
+            <img class='w3-animate-opacity' src="<?php echo get_stylesheet_directory_uri() ;?>/images/1.jpg" alt="">
+            <p>Praesent metus tellus, elementum eu, semper a, adipiscing nec, purus. Sed hendrerit. Ut a nisl id ante tempus hendrerit.</p>
+          </a>
+        </div>
+        <div class="w3-col m4 l4">
+          <img class='w3-animate-opacity' src="<?php echo get_stylesheet_directory_uri() ;?>/images/2.jpg" alt="">
           <p>Praesent metus tellus, elementum eu, semper a, adipiscing nec, purus. Sed hendrerit. Ut a nisl id ante tempus hendrerit.</p>
         </div>
         <div class="w3-col m4 l4">
-          <img src="<?php echo get_stylesheet_directory_uri() ;?>/images/2.jpg" alt="">
+          <img class='w3-animate-opacity' src="<?php echo get_stylesheet_directory_uri() ;?>/images/3.jpg" alt="">
           <p>Praesent metus tellus, elementum eu, semper a, adipiscing nec, purus. Sed hendrerit. Ut a nisl id ante tempus hendrerit.</p>
         </div>
         <div class="w3-col m4 l4">
-          <img src="<?php echo get_stylesheet_directory_uri() ;?>/images/3.jpg" alt="">
+          <img class='w3-animate-opacity' src="<?php echo get_stylesheet_directory_uri() ;?>/images/4.jpg" alt="">
           <p>Praesent metus tellus, elementum eu, semper a, adipiscing nec, purus. Sed hendrerit. Ut a nisl id ante tempus hendrerit.</p>
         </div>
         <div class="w3-col m4 l4">
-          <img src="<?php echo get_stylesheet_directory_uri() ;?>/images/4.jpg" alt="">
+          <img class='w3-animate-opacity' src="<?php echo get_stylesheet_directory_uri() ;?>/images/5.jpg" alt="">
           <p>Praesent metus tellus, elementum eu, semper a, adipiscing nec, purus. Sed hendrerit. Ut a nisl id ante tempus hendrerit.</p>
         </div>
         <div class="w3-col m4 l4">
-          <img src="<?php echo get_stylesheet_directory_uri() ;?>/images/5.jpg" alt="">
-          <p>Praesent metus tellus, elementum eu, semper a, adipiscing nec, purus. Sed hendrerit. Ut a nisl id ante tempus hendrerit.</p>
-        </div>
-        <div class="w3-col m4 l4">
-          <img src="<?php echo get_stylesheet_directory_uri() ;?>/images/6.jpg" alt="">
+          <img class='w3-animate-opacity' src="<?php echo get_stylesheet_directory_uri() ;?>/images/6.jpg" alt="">
           <p>Praesent metus tellus, elementum eu, semper a, adipiscing nec, purus. Sed hendrerit. Ut a nisl id ante tempus hendrerit.</p>
         </div>
       </div>
@@ -60,5 +62,6 @@
   <footer>
     <p>Photogenic &copy; <?php echo get_the_date('Y'); ?></p>
   </footer>
+  <?php wp_footer(); ?>
 </body>
 </html>
