@@ -41,3 +41,11 @@ footer{
   margin-top: 40px;
   border-top: #333 solid 1px;
 }
+
+.pic{
+  text-align: center;
+}
+.pic img{
+  width:100% !important;
+  height: auto !important;
+}
